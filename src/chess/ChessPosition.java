@@ -28,7 +28,7 @@ public class ChessPosition {
 	}
 	
 	
-	protected Position toPosition(char column, int row) {
+	protected Position toPosition( int row, char column) {
 		return new Position(8 - row, column - 'a'); 
 	}
 	
